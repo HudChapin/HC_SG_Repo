@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vending Machine</title>
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/styles.css" type="text/css" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="center" id="banner">
+          <div class="col-md-12">
+              <h1>Vending Machine</h1>
+              <ul class='list-group' id='errorMessages'></ul>
+          </div>
+        </div>
+          <hr>
+    <ul class="list-group" id="errorMessages"></ul>
+
+    <div class="container col-8" id="left">
+      <!--  onclick -->
+      <div class="row">
+            <div class="square col-sm-3" id="item0">1<p></p><button type="button" id="buttonItem0" onclick="setItem(1)"></button></div>
+            <div class="square col-sm-3" id="item1">2<p></p><button type="button" id="buttonItem1" onclick="setItem(2)"></button></div>
+            <div class="square col-sm-3" id="item2">3<p></p><button type="button" id="buttonItem2" onclick="setItem(3)">></button></div>
+      </div>
+      <div class="row">
+            <div class="square col-sm-3" id="item3">4<p></p><button type="button" id="buttonItem3" onclick="setItem(4)">></button></div>
+            <div class="square col-sm-3" id="item4">5<p></p><button type="button" id="buttonItem4" onclick="setItem(5)">></button></div>
+            <div class="square col-sm-3" id="item5">6<p></p><button type="button" id="buttonItem5" onclick="setItem(6)">></button></div>
+      </div>
+      <div class ="row">
+            <div class="square col-sm-3" id="item6">7<p></p><button type="button" id="buttonItem6" onclick="setItem(7)">></button></div>
+            <div class="square col-sm-3" id="item7">8<p></p><button type="button" id="buttonItem7" onclick="setItem(8)">></button></div>
+            <div class="square col-sm-3" id="item8">9<p></p><button type="button" id="buttonItem8" onclick="setItem(9)">></button></div>
+      </div>
+    </div>
+
+      <div class="container" id="formContainer">
+        <form id="top">
+          <p>Total $ In</p><br>
+          <input type="text" name="total" id="totalTextbox" value="0"></input><br><br>
+          <button type="button" id="addDolar">Add Dolar</button><button type="button" id="addQuarter">Add Quarter</button><br>
+          <button type="button" id="addDime">Add Dime</button><button type="button" id="addNickel">Add Nickel</button><br>
+        </form>
+      </div>
+<hr id="rightHr">
+      <div class="container" id="formContainer">
+        <form id="middle">
+          <p>Messages</p><input type="text" name="messages" id="messageTextbox"></input><br><br>
+          <p>Item</p><input type="text" name="item" id="itemTextbox" value=""></input><br><br>
+          <button type="button" id="makePurchase">Make Purchase</button>
+        </form>
+      </div>
+<hr id="rightHR">
+      <div class="container" id="formContainer">
+        <form id="bottom">
+          <p>Change</p><br>
+          <input type="text" name="change" id="changeTextbox"></input><br><br>
+          <button type="button" id="changeReturn">Change Return</button>
+        </form>
+      </div>
+
+      <script src="js/jquery-2.2.4.min.js"></script>
+      <script src="js/home.js"></script>
+</html>

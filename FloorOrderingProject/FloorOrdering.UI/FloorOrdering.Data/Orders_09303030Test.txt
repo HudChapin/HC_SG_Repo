@@ -1,0 +1,2 @@
+Order ID~Order Date~Cust Name~State~Prod Type~Material Cost~Labor Cost~Tax~Total
+1 ~   Valid Name~   OH   ~0 ~Laminate   ~175 ~ 0 ~0 ~0 ~0 ~0 ~0

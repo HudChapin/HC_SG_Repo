@@ -1,0 +1,64 @@
+#banner {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#left {
+  float:left;
+}
+
+#right {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+
+#top p {
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#middle p {
+  font-size: 30px;
+}
+
+#bottom p {
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.square {
+  padding: 35px;
+  margin: 35px;
+  border: 5px solid black;
+  background-color: white;
+}
+
+.square p {
+  text-align: center;
+}
+
+body {
+  background-color: #b3ccff;
+}
+
+button {
+  margin-left: 10px;
+  margin-bottom: 10px
+}
+
+#rightHr{
+  margin-left:1200px;
+  margin-right: 300px;
+}
+
+hr {
+  height:10px;
+}
+
+#left button {
+  padding: 40px;
+  background-color: white;
+}
